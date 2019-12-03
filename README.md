@@ -1,4 +1,4 @@
-# Affinity-Propagation-Csharp-dotnet-core
+# Sparse Affinity Propagation C# dotnetcore3
 Affinity propagation algorithm in C#
 
 Compile Debug mode: dotnet build<br />
