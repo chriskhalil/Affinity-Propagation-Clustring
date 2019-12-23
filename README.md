@@ -1,5 +1,5 @@
-# Sparse Affinity Propagation C# dotnetcore3
-Affinity propagation algorithm in C#
+# Sparse Affinity Propagation C# 
+Implementation of the affinitypropagation a clustering algorithm by passing messages between data points. Optimizedfor sparse similarity matrix.
 
 Compile Debug mode: dotnet build<br />
 Compile Release mode: dotnet build --configuration Release<br />
