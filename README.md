@@ -1,37 +1,17 @@
 # Sparse Affinity Propagation C# 
-Implementation of the affinitypropagation a clustering algorithm by passing messages between data points. Optimizedfor sparse similarity matrix.
+Implementation of the affinitypropagation a clustering.An algorithm that identifies exemplars among data points and forms clusters of data points around these exemplars.<br />
+It operates by simultaneously considering all data point as potential exemplars and exchanging messages between data points until a good set of exemplars and clusters emerges.<br />
+<br/>
+Optimizedfor sparse similarity matrix.<br/>
 
-Compile Debug mode: dotnet build<br />
-Compile Release mode: dotnet build --configuration Release<br />
 
-Expected output from toy.csv<br />
+<p><strong>data point (a.k.a. training case)</strong>: One item of data; affinity propagation clusters data points<br><br><strong>exemplar</strong>: A data point that is nicely representative of itself and some other data points.<br><br><strong>similarity</strong>: The similarity of data point i to data point j, called s(i,j), is the suitability of point j to serve as the exemplar for data point i. If the data are real-valued, a common choice for similarity is negative Euclidean distance: s(i,j) = -(x(i)-x(j))(x(i)-x(j)). Affinity propagation can be applied using more general notions of similarity, and the similarities may be positive or negative. In fact, the output of the algorithm is unchanged if the similarities are scaled and/or offset by a constant (as long as the preferences are scaled and/or offset by the same constant).<br><br><strong>preference</strong>: The preference of point i, called p(i) or s(i,i), is the a priori suitability of point i to serve as an exemplar. Preferences can be set to a global (shared) value, or customized for particular data points. High values of the preferences will cause affinity propagation to find many exemplars (clusters), while low values will lead to a small number of exemplars (clusters). A good initial choice for the preference is the minimum similarity or the median similarity.<br><br><strong>availability</strong>: Messages sent from candidate exemplars (data points) to potential cluster members (data points), indicating how appropriate that candidate would be as an exemplar.<br><br><strong>responsibility</strong>: Messages sent from cluster members (data points) to candidate exemplars (data points), indicating how well-suited the data point would be as a member of the candidate exemplar&apos;s cluster.<br><br><strong>net similarity</strong>: A score of how appropriate the exemplars are for explaining the data. This is the objective function that affinity propagation tries to maximize.<br><br><strong>belief propagation</strong>: An iterative algorithm (used in affinity propagation) for searching over and scoring configurations of variables in a graphical model. It is also referred to as the &quot;sum-product algorithm&quot;. When it is applied to a graph with cycles, it is often referred to as &quot;loopy belief propagation&quot;.<br><br><strong>sum-product and max-product algorithms</strong>: Whereas the sum-product algorithm combines evidence by adding probabilities (scores), the max-product algorithm combines evidence by taking the largest probability (score).<br><br><strong>iteration</strong>: In affinity propagation, a single iteration involves computing all responsibility messages based on the current availability messages, the input similarities and the input preferences, and then computing all availability messages based on the responsibility messages, which were just updated.<br><br><strong>damping / <em>dampfact</em></strong>: Computing responsibilities and availabilities according to simple update rules will often lead to oscillations caused by &quot;overshooting&quot; the solution, so the responsibility and availability messages are &quot;damped&quot; like this:<br><br><em>msgnew = (dampfact)(msgold) + (1-dampfact)(msgnew)</em><br><br><strong>clustering</strong>: An unsupervised machine learning task that involves partitioning data into groups of similar data points.<br><br><strong>cluster</strong>: One of the data point groups arising from clustering.<br><br><strong>convits and maxits</strong>: Affinity propagation iteratively computes responsibilities and availabilities. The algorithm terminates if decisions for the exemplars and the cluster boundaries are unchanged for convits iterations, or if maxits iterations are reached. </p>
+
+
+
+
+
+Expected output from toyDataSet<br />
 2 2 2 2 2 2 6 6 6 6 2 6 2 6 6 19 19 19 19 19 19 2 19 19 6<br />
 
-**Csv files can have two formats**<br />
 
-**1)similarity file of the form**<br />
-
-**int,int,float**<br />
-
-example:<br />
-
-1,3,-3.32424<br />
-3,5,2.41241<br />
-5,1,-3.42423<br />
-.....<br />
-.....<br />
-Note: File should not include the main diagonal values<br />
-
-**2)2D points file of the form**<br />
-
-**float,float,float**<br />
-
-example:<br />
--2.3415,3.6968<br />
--1.1092,3.1117<br />
--1.5669,1.8351<br />
--2.6585,0.6649<br />
--4.0317,2.8457<br />
--3.081,2.1011<br />
-.....<br />
-.....<br />

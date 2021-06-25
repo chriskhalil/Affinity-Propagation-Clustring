@@ -1,0 +1,13 @@
+C:\Users\Hunter\source\repos\Affprop\obj\Release\netcoreapp3.1\Affprop.csprojAssemblyReference.cache
+C:\Users\Hunter\source\repos\Affprop\obj\Release\netcoreapp3.1\Affprop.AssemblyInfoInputs.cache
+C:\Users\Hunter\source\repos\Affprop\obj\Release\netcoreapp3.1\Affprop.AssemblyInfo.cs
+C:\Users\Hunter\source\repos\Affprop\obj\Release\netcoreapp3.1\Affprop.csproj.CoreCompileInputs.cache
+C:\Users\Hunter\source\repos\Affprop\bin\Release\netcoreapp3.1\Affprop.exe
+C:\Users\Hunter\source\repos\Affprop\bin\Release\netcoreapp3.1\Affprop.deps.json
+C:\Users\Hunter\source\repos\Affprop\bin\Release\netcoreapp3.1\Affprop.runtimeconfig.json
+C:\Users\Hunter\source\repos\Affprop\bin\Release\netcoreapp3.1\Affprop.runtimeconfig.dev.json
+C:\Users\Hunter\source\repos\Affprop\bin\Release\netcoreapp3.1\Affprop.dll
+C:\Users\Hunter\source\repos\Affprop\bin\Release\netcoreapp3.1\Affprop.pdb
+C:\Users\Hunter\source\repos\Affprop\obj\Release\netcoreapp3.1\Affprop.dll
+C:\Users\Hunter\source\repos\Affprop\obj\Release\netcoreapp3.1\Affprop.pdb
+C:\Users\Hunter\source\repos\Affprop\obj\Release\netcoreapp3.1\Affprop.genruntimeconfig.cache

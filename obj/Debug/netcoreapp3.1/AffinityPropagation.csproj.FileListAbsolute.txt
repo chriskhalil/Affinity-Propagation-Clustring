@@ -1,0 +1,3 @@
+C:\Users\Hunter\source\repos\chriskhalil\Affinity-Propagation-Sparse\obj\Debug\netcoreapp3.1\AffinityPropagation.AssemblyInfoInputs.cache
+C:\Users\Hunter\source\repos\chriskhalil\Affinity-Propagation-Sparse\obj\Debug\netcoreapp3.1\AffinityPropagation.AssemblyInfo.cs
+C:\Users\Hunter\source\repos\chriskhalil\Affinity-Propagation-Sparse\obj\Debug\netcoreapp3.1\AffinityPropagation.csproj.CoreCompileInputs.cache

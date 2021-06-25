@@ -1,0 +1,13 @@
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\bin\Release\netcoreapp3.1\Affinity Propagation Clustering.exe
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\bin\Release\netcoreapp3.1\Affinity Propagation Clustering.deps.json
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\bin\Release\netcoreapp3.1\Affinity Propagation Clustering.runtimeconfig.json
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\bin\Release\netcoreapp3.1\Affinity Propagation Clustering.runtimeconfig.dev.json
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\bin\Release\netcoreapp3.1\Affinity Propagation Clustering.dll
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\bin\Release\netcoreapp3.1\Affinity Propagation Clustering.pdb
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\obj\Release\netcoreapp3.1\Affinity Propagation Clustering.csprojAssemblyReference.cache
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\obj\Release\netcoreapp3.1\Affinity Propagation Clustering.AssemblyInfoInputs.cache
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\obj\Release\netcoreapp3.1\Affinity Propagation Clustering.AssemblyInfo.cs
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\obj\Release\netcoreapp3.1\Affinity Propagation Clustering.csproj.CoreCompileInputs.cache
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\obj\Release\netcoreapp3.1\Affinity Propagation Clustering.dll
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\obj\Release\netcoreapp3.1\Affinity Propagation Clustering.pdb
+C:\Users\Hunter\source\repos\Affinity Propagation Clustering\obj\Release\netcoreapp3.1\Affinity Propagation Clustering.genruntimeconfig.cache
