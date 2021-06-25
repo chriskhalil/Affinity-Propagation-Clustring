@@ -11,7 +11,7 @@ Optimized for sparse similarity matrix.<br/>
 
 
 
-Expected output from toyDataSet<br />
+<strong>Expected output from toyDataSet<strong><br />
 2 2 2 2 2 2 6 6 6 6 2 6 2 6 6 19 19 19 19 19 19 2 19 19 6<br />
 
 
