@@ -17,7 +17,7 @@ namespace AffinityPropagationClusteringt
             ToyDataset rnd = new ToyDataset();
             Stopwatch s = new Stopwatch();
 
-            var data1 = rnd.DataSet();
+             var data1 = rnd.DataSet();
             var sim = SimilarityMatrix.SparseSimilarityMatrix(data1);
 
 

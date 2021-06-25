@@ -27,7 +27,7 @@ namespace Cluster
             
                 int m = _graph.SimMatrixElementsCount - _graph.VerticesCount - 1;
                 //get the middle element of the array with quickselect without sorting the array 
-                var s = Algorithms.QuickSelect(ref _graph.Edges, 0, m, (m / 2) + 1);
+                var s = Algorithms.k2thSmallest(ref _graph.Edges, 0, m, (m / 2) + 1);
                 return Convert.ToSingle(m % 2 == 0 ? ((s[0] + s[1]) / 2) : s[0]);
             
             }

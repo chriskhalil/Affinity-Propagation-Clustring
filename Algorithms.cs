@@ -32,7 +32,7 @@
             return (i + 1);
         }
         // Implementation of QuickSelect
-        public static float[] QuickSlect(ref Edge[] a, int left, int right, int k)
+        public static float[] k2thSmallest(ref Edge[] a, int left, int right, int k)
         {
             float[] s = new float[2];
             int temp = 0;

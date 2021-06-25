@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hunter\\source\\repos\\Affinity Propagation Clustering\\Affinity Propagation Clustering.csproj": {}
+    "C:\\Users\\Hunter\\Source\\Repos\\chriskhalil\\Affinity-Propagation-Sparse\\Affinity Propagation Clustering.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hunter\\source\\repos\\Affinity Propagation Clustering\\Affinity Propagation Clustering.csproj": {
+    "C:\\Users\\Hunter\\Source\\Repos\\chriskhalil\\Affinity-Propagation-Sparse\\Affinity Propagation Clustering.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hunter\\source\\repos\\Affinity Propagation Clustering\\Affinity Propagation Clustering.csproj",
+        "projectUniqueName": "C:\\Users\\Hunter\\Source\\Repos\\chriskhalil\\Affinity-Propagation-Sparse\\Affinity Propagation Clustering.csproj",
         "projectName": "Affinity Propagation Clustering",
-        "projectPath": "C:\\Users\\Hunter\\source\\repos\\Affinity Propagation Clustering\\Affinity Propagation Clustering.csproj",
+        "projectPath": "C:\\Users\\Hunter\\Source\\Repos\\chriskhalil\\Affinity-Propagation-Sparse\\Affinity Propagation Clustering.csproj",
         "packagesPath": "C:\\Users\\Hunter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hunter\\source\\repos\\Affinity Propagation Clustering\\obj\\",
+        "outputPath": "C:\\Users\\Hunter\\Source\\Repos\\chriskhalil\\Affinity-Propagation-Sparse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
