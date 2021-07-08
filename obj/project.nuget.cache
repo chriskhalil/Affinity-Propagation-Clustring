@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Z27l4gkxkfGWeeobSR15IfWBNHO1IurKwLux6E38meCjVTd74LGEF1bRkwDtB8BFzIe/CsOoqsS3qLq/V+tGQ==",
+  "dgSpecHash": "YrUHfBg2XOF3TYVBBdMDtPYo3V7LyZbCZHHHLmuKn7WuvKiKdMpHs2AIrB/RQr/6FNayQGwPzDV2Y6KNqqn6kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hunter\\Source\\Repos\\chriskhalil\\Affinity-Propagation-Sparse\\Affinity Propagation Clustering.csproj",
+  "projectFilePath": "C:\\Users\\Hunter\\Source\\Repos\\chriskhalil\\Affinity-Propagation-Clustring\\Affinity Propagation Clustering.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -3,12 +3,12 @@
 
     public static class Algorithms
     {
-            public static void Swap<T>(ref T x, ref T y)
-            {
-                T tempswap = x;
-                x = y;
-                y = tempswap;
-            }
+        public static void Swap<T>(ref T x, ref T y)
+        {
+            T tempswap = x;
+            x = y;
+            y = tempswap;
+        }
         private static int qpartition(Edge[] arr, int low, int high)
         {
             Edge temp;
@@ -34,6 +34,7 @@
         // Implementation of QuickSelect
         public static float[] k2thSmallest(ref Edge[] a, int left, int right, int k)
         {
+
             float[] s = new float[2];
             int temp = 0;
             while (left <= right)
@@ -67,6 +68,6 @@
             return null;
         }
 
-        
+
     }
 }

@@ -29,7 +29,7 @@ namespace DataSet
             float temp = 0.0f, temp1 = 0.0f;
             for (int i = 0; i < data_size; ++i)
             {
-                temp =  (float)rnd.NextDouble() * (max - min) + min;
+                temp = (float)rnd.NextDouble() * (max - min) + min;
                 temp1 = (float)rnd.NextDouble() * (max - min) + min;
                 arnd[i] = new Point(temp, temp1);
             }
@@ -58,7 +58,7 @@ namespace DataSet
     interface ITestDataSet
     {
         public Point[] DataSet();
-        public  int[]   Centers();
+        public int[] Centers();
     }
 
 
@@ -66,7 +66,7 @@ namespace DataSet
     {
         public int[] Centers()
         {
-            return  new int[25] { 2, 2, 2, 2, 2, 2, 6, 6, 6, 6, 2, 6, 2, 6, 6, 19, 19, 19, 19, 19, 19, 2, 19, 19, 6 };
+            return new int[25] { 2, 2, 2, 2, 2, 2, 6, 6, 6, 6, 2, 6, 2, 6, 6, 19, 19, 19, 19, 19, 19, 2, 19, 19, 6 };
         }
 
         public Point[] DataSet()
